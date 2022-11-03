@@ -1,4 +1,4 @@
-document.getElementById('css_form').onsubmit = (event) => {
+document.getElementById('css-form').onsubmit = (event) => {
     event.preventDefault();
     document.getElementsByTagName('style')[0].innerHTML = event.target.elements.cssFormazas.value;
 }
